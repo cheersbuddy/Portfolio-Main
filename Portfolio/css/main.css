@@ -1136,6 +1136,46 @@ flex: 1 1 45%;
   cursor: default;
 }
 
+@media (max-width: 768px) {
+  .timeline-row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .timeline-card.single {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .timeline-card .content .header_experience {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .timeline-card ul li .bullet-icon {
+
+  font-size: 0.8rem;
+}
+.timeline-card h3 {
+  font-size: 2rem;
+}
+.timeline-card .company {
+  font-size: 1.4rem;
+  gap: 0.2rem;
+
+}
+.timeline-card .tenure {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+
+}
+
+  .timeline-card .skills {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
 
 
 
