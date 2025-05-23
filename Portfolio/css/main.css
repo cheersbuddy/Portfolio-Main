@@ -1998,7 +1998,7 @@ header {
   font-size: 1.5rem;
   line-height: 1.6;
   color: #444;
-  margin-bottom: 8px;
+
 }
 
 /* Scrollable image row */
@@ -2197,7 +2197,7 @@ header {
   .project-description li,
   .project-publication p,
   .project-table {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
   }
 
   .slider-btn {
